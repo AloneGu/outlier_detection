@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+luminol (https://github.com/linkedin/luminol)
+hdbscan (https://github.com/scikit-learn-contrib/hdbscan)
