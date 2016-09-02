@@ -4,11 +4,7 @@
 
 ## Installation
 
-        git clone xxx
-
-        cd xxx
-
-        sudo python setup.py install
+        sudo pip install git+ssh://github.com/AloneGu/outlier_detection
 
 ### Supported algos:
 
@@ -17,7 +13,8 @@
                     'bitmap_detector': BitmapDetector,
                     'derivative_detector': DerivativeDetector,
                     'exp_avg_detector': ExpAvgDetector,
-                    'modified_z_detector':ModifiedZScoreDetector
+                    'modified_z_detector':ModifiedZScoreDetector,
+                    'hdbscan': HdbscanDetector
                 }
 
 
