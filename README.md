@@ -4,11 +4,8 @@
 
 ## Installation
 
-        git clone git@github.com:AloneGu/outlier_detection.git
+         pip install git+ssh://git@github.com/AloneGu/outlier_detection.git
 
-        cd outlier_detection
-        
-        sudo python setup.py install
 
 ### Supported algos:
 
