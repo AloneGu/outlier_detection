@@ -4,7 +4,7 @@
 
 ## Installation
 
-        pip install git+ssh://git@gitlab.gizwits.com/gizwits_ml/outlier_detection.git
+        pip install git+ssh://git@github.com/AloneGu/outlier_detection.git
 
 ### Supported algos:
 
