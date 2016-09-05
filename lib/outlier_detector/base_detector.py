@@ -3,7 +3,10 @@ from bitmap_detector import BitmapDetector
 from derivative_detector import DerivativeDetector
 from exp_avg_detector import ExpAvgDetector
 from modified_z_score_detector import ModifiedZScoreDetector
+from z_score_detector import ZScoreDetector
 from hdbscan_detector import HdbscanDetector
+from gaussian_detector import GaussianDetector
+from poisson_detector import PoissonDetector
 
 anomaly_detector_algorithms = {
     'svm': SvmDetector,
@@ -11,7 +14,10 @@ anomaly_detector_algorithms = {
     'derivative': DerivativeDetector,
     'exp_avg': ExpAvgDetector,
     'modified_z': ModifiedZScoreDetector,
-    'hdbscan': HdbscanDetector
+    'z_score': ZScoreDetector,
+    'hdbscan': HdbscanDetector,
+    'gaussian': GaussianDetector,
+    'poisson': PoissonDetector
 }
 
 

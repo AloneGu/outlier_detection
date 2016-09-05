@@ -3,16 +3,15 @@ import matplotlib.pyplot as plt
 from outlier_detector.base_detector import OutlierDetector
 
 # Generate train data
-
 X_train = 0.3 * np.random.randn(100, 2)
-# Generate some regular novel observations
 
+# Generate some regular novel observations
 X_test = 0.3 * np.random.randn(20, 2)
 
 # Generate some abnormal novel observations
 X_outliers = np.random.uniform(low=-4, high=4, size=(20, 2))
 
-param_dict = {'gamma': 0.1, 'kernel': 'rbf', 'nu':0.1}
+param_dict = {'gamma': 0.1, 'kernel': 'rbf', 'nu': 0.1}
 # fit the model
 outlier_worker = OutlierDetector(algo_name='svm', param_dict=param_dict)
 outlier_worker.fit(X_train)

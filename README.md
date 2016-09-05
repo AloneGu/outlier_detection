@@ -4,18 +4,20 @@
 
 ## Installation
 
-         pip install git+ssh://git@github.com/AloneGu/outlier_detection.git
-
+        pip install git+ssh://git@gitlab.gizwits.com/gizwits_ml/outlier_detection.git
 
 ### Supported algos:
 
                 anomaly_detector_algorithms = {
                     'svm': SvmDetector,
-                    'bitmap_detector': BitmapDetector,
-                    'derivative_detector': DerivativeDetector,
-                    'exp_avg_detector': ExpAvgDetector,
-                    'modified_z_detector':ModifiedZScoreDetector,
-                    'hdbscan': HdbscanDetector
+                    'bitmap': BitmapDetector,
+                    'derivative': DerivativeDetector,
+                    'exp_avg': ExpAvgDetector,
+                    'modified_z': ModifiedZScoreDetector,
+                    'z_score':ZScoreDetector,
+                    'hdbscan': HdbscanDetector,
+                    'gaussian':GaussianDetector,
+                    'poisson':PoissonDetector
                 }
 
 
