@@ -2,7 +2,7 @@
 """
 
 import sys
-__title__ = 'outlier_detector'
+__title__ = 'giz_outlier_detector'
 __version__ = '0.1.0'
 __author__ = 'Wei Gu'
 __author_email__ = 'wg@gizwits.com'
