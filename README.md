@@ -21,7 +21,7 @@
                 }
 
 
-### SVM demo:
+### modified z score demo:
 
                 from outlier_detector.base_detector import OutlierDetector
                 import numpy as np
