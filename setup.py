@@ -2,10 +2,10 @@
 """
 
 import sys
-__title__ = 'giz_outlier_detector'
+__title__ = 'outlier_detector'
 __version__ = '0.1.0'
 __author__ = 'Wei Gu'
-__author_email__ = 'wg@gizwits.com'
+
 try:
     from setuptools import setup, find_packages
 except ImportError:
@@ -18,7 +18,7 @@ setup(
         name=__title__,
         version=__version__,
         author=__author__,
-        author_email=__author_email__,
+
         install_requires=[
             'luminol',
             'numpy>=1.11.1',
