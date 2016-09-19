@@ -4,7 +4,7 @@
 import sys
 __title__ = 'outlier_detector'
 __version__ = '0.1.0'
-__author__ = 'Wei Gu'
+__author__ = 'Jackling Gu'
 
 try:
     from setuptools import setup, find_packages
